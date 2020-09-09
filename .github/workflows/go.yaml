@@ -9,7 +9,7 @@ on:
 
 jobs:
 
-  buildGo1.14:
+  build-go-1.14:
     name: Build
     runs-on: ubuntu-latest
     steps:
@@ -37,7 +37,7 @@ jobs:
     - name: Test
       run: go test ./...
 
-  buildGo1.15:
+  build-go-1.15:
     name: Build
     runs-on: ubuntu-latest
     steps:
