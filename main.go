@@ -42,7 +42,7 @@ func contains(list []string, value string) (found bool) {
 }
 
 // Process calcules vote results
-func Calculate(votes *[]map[string]int, choices int) (result []map[string]int, winner []string, rejected []string, err error) {
+func Process(votes *[]map[string]int, choices int) (result []map[string]int, winner []string, rejected []string, err error) {
 
 	result = []map[string]int{{}}
 	rejected = []string{}
